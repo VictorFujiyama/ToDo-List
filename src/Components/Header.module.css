@@ -1,0 +1,48 @@
+.header {
+    background: var(--gray-700);
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+    gap: 1rem; */
+}
+
+.header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.rocketIcon {
+    margin-top: 5px;
+    width: 22px;
+    height: 36px;
+}
+
+.toLogo {
+    color: var(--blue);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.doLogo {
+    color: var(--purple-dark);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+
+

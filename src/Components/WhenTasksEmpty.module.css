@@ -1,0 +1,28 @@
+.tasks {
+    width: 100%;
+    display: flex;
+    padding: 64px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 0.5rem 0.5rem 0 0;
+    text-align: center; /* Adicionando esta propriedade */
+ 
+    padding: 4rem 1.5rem;
+}
+
+
+.tasks img {
+    margin-bottom: 1rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    
+}
+
+.tasks strong,p {
+    color: var(--gray-300);
+    ;
+}

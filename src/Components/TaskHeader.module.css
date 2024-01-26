@@ -1,0 +1,39 @@
+.tasksHeader {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    margin-bottom: 1.5rem;
+}
+
+.tasksHeader div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.taskCreateds {
+    color: var(--blue);
+    font-size: 0.875rem;
+}
+
+.taskConcludes {
+    color: var(--purple);
+    font-size: 0.875rem;
+}
+
+.tasksHeader p {
+    display: flex;
+    padding: 0 0.65rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 999px;
+    background: var(--gray-400);
+    font-size: 0.875rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: var(--gray-200);
+
+}
